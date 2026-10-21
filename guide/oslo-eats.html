@@ -49,7 +49,7 @@ function render() {
     shown += items.length;
     html += `<h2>${esc(c.name)}</h2>` + items.map(p => `<details><summary>${esc(p.name)}${p.new ? '<span class="new">NEW</span>' : ''}</summary>
 <div class="body">${esc(p.desc || 'No notes.')}<div class="meta">
-<a href="https://www.google.com/maps/search/?api=1&query=${p.lat},${p.lon}">Google Maps</a>
+<a href="https://www.google.com/maps/search/${encodeURIComponent(p.name)}/@${p.lat},${p.lon},18z">Google Maps</a>
 <a href="geo:${p.lat},${p.lon}?q=${p.lat},${p.lon}(${encodeURIComponent(p.name)})">Map app</a>
 <span>${p.lat.toFixed(5)}, ${p.lon.toFixed(5)}</span></div></div></details>`).join('');
   }
