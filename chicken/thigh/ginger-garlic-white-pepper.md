@@ -26,10 +26,9 @@ Marinade, per 700 g thigh:
 
 1. Mix the marinade, coat the chicken. Fridge, 60–120 min (up to 4 h is fine, not past 8 h).
 2. Preheat air fryer to 200 °C.
-3. Wipe off excess marinade, leaving a thin film. Spray both sides with oil.
-4. Single layer, 12–15 min, flip halfway.
-5. Pull at 80–85 °C core. Rest 3 min.
-6. Serve with rice, vegetables and the nước mắm sauce on the side.
+3. Single layer, 12–15 min, flip halfway.
+4. Pull at 80–85 °C core. Rest 3 min.
+5. Serve with rice, vegetables and the nước mắm sauce on the side.
 
 ## Notes
 
