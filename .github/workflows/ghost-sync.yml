@@ -1,0 +1,34 @@
+name: Sync recipes to Ghost
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "**.md"
+      - "tools/ghost_sync.py"
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "Dry run (no writes to Ghost)"
+        type: boolean
+        default: true
+
+concurrency:
+  group: ghost-sync
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install markdown pyyaml
+      - name: Sync
+        env:
+          GHOST_URL: ${{ secrets.GHOST_URL }}
+          GHOST_ADMIN_KEY: ${{ secrets.GHOST_ADMIN_KEY }}
+          GHOST_PERMALINK: ${{ vars.GHOST_PERMALINK || '/{slug}/' }}
+        run: python tools/ghost_sync.py ${{ inputs.dry_run && '--dry-run' || '' }}

@@ -85,7 +85,7 @@ taxonomies:
 ### Local runs
 
 ```sh
-pip install markdown pyyaml
-python3 tools/ghost_sync.py --offline       # render only, shows slugs/tags, no API
-GHOST_URL=... GHOST_ADMIN_KEY=... python3 tools/ghost_sync.py --dry-run
+python3 -m venv .venv && .venv/bin/pip install markdown pyyaml
+.venv/bin/python tools/ghost_sync.py --offline       # render only, shows slugs/tags, no API
+GHOST_URL=... GHOST_ADMIN_KEY=... .venv/bin/python tools/ghost_sync.py --dry-run
 ```
