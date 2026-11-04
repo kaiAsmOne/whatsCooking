@@ -22,9 +22,23 @@ pairs_with: [../pork/belly/rang-fish-sauce-pepper.md]
 
 ## Method
 
-1. Steam the cabbage 5–7 min (ribbons) or 8–10 min (wedges), until just tender and still bright.
-2. Mix lime, fish sauce, water, garlic, pepper.
+1. Mix lime, fish sauce, water, garlic, pepper.
+2. Steam the cabbage until just tender and still bright (see timings below).
 3. Spoon the dressing over the hot cabbage, or serve it on the side for dipping.
+
+### Timings
+
+Pressure cooker, steam basket above 250 ml water (or the manual's minimum), high pressure, **quick release**, lift out immediately:
+
+| Cut | Electric | Stovetop |
+|---|---|---|
+| White cabbage, wedges ~4 cm at the core | 2 min | ~1.5 min from reaching pressure |
+| White cabbage, 3 cm ribbons | 0–1 min | 0 min (off as soon as it hits pressure) |
+| Spisskål, halves or wedges | 0–1 min | 0 min |
+
+"0 min" = stop as soon as it reaches pressure. Natural release overcooks it and brings out the sulphur.
+
+Ordinary steaming (lid loose or glass lid, water at a boil): ribbons 5–7 min, wedges 8–10 min.
 
 ## Notes
 
@@ -35,3 +49,4 @@ pairs_with: [../pork/belly/rang-fish-sauce-pepper.md]
 ## Changelog
 
 - 2026-10-29: created to replace kålstuing alongside the pork belly rang.
+- 2026-11-01: added pressure-cooker steam basket timings. Wedges at 2 min is the starting point.

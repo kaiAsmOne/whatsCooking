@@ -7,7 +7,7 @@ serves: 2–3
 base_weight: 540 g pork belly
 status: tested
 tags: [vietnamese, northern, weeknight, no-sugar]
-pairs_with: [../../sides/steamed-cabbage-lime-fish-sauce.md, ../../sauces/ga-chien-nuoc-mam.md]
+pairs_with: [../../sides/steamed-cabbage-lime-fish-sauce.md, ../../sides/pickled-spisskal.md, ../../sauces/ga-chien-nuoc-mam.md]
 ---
 
 ## Ingredients
