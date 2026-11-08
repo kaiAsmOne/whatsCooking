@@ -9,6 +9,8 @@ status: tested
 tags: [vietnamese, dredge, skillet, favourite]
 pairs_with: [../../sauces/ga-chien-nuoc-mam.md]
 ---
+Note: This recipe didn't work. use your
+old way of doing this recipe. 
 
 ## Ingredients
 
